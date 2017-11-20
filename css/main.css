@@ -8,8 +8,8 @@ body{
 header{
   background-color: #0067A3;
   width: 100%;
-  height: 40px;
- outline: 1px solid red;
+  height: 45px;
+
 }
 
 input{
@@ -22,6 +22,9 @@ border-radius: 6px;
 font-size: 25px;
 padding-top: 8px;
 padding-bottom: 1px;
+}
+i .fa.fa-search{
+  display: inline-block;
 }
 .fa {
     display: inline-block;
@@ -36,11 +39,16 @@ padding-bottom: 1px;
 }
 .content{
   background-color: #4D95BF;
+
   width: 120px;
   border-radius: 8px;
   margin-left: 5px;
   margin-top: 5px;
   display: inline-block;}
+  .hover:hover{
+    background-color: #2F77A1;
+
+  }
 .content_2 {
   width: 120px;
   margin-left: 15em;
@@ -63,7 +71,7 @@ padding-bottom: 1px;
   padding-left: 6px;
   width: 30px;
   border-radius: 5px;
-  margin-left: 29em;
+  margin-left: 27em;
   margin-top: 5px;
   display: inline-block;
 }
